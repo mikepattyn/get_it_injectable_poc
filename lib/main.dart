@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:get_it_injectable_poc/test_page.dart';
 
+import 'getit.dart';
+
 void main() {
+  setupDependencies();
   runApp(const MyApp());
 }
 
