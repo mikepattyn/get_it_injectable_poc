@@ -262,18 +262,16 @@ packages:
   injectable:
     dependency: "direct main"
     description:
-      name: injectable
-      sha256: "4cc54247877952e5d76cc2d0be093a0954f83a4407d02770b77fcf7cf3192ee9"
-      url: "https://pub.dev"
-    source: hosted
+      path: "../../dependencies/injectable/injectable"
+      relative: true
+    source: path
     version: "2.2.0"
   injectable_generator:
     dependency: "direct dev"
     description:
-      name: injectable_generator
-      sha256: "52dc0769606e1c64ed7676e6a3af25ec17a4bfddd7a9cc29d5556e73be5c5a0c"
-      url: "https://pub.dev"
-    source: hosted
+      path: "../../dependencies/injectable/injectable_generator"
+      relative: true
+    source: path
     version: "2.3.0"
   io:
     dependency: transitive

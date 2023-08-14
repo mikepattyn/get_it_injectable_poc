@@ -1,0 +1,3 @@
+[submodule "dependencies/injectable"]
+	path = dependencies/injectable
+	url = git@github.com:mikepattyn/injectable.git
