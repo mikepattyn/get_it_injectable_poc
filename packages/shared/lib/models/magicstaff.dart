@@ -1,4 +1,4 @@
-import 'package:get_it_poc/models/weapon.dart';
+import './weapon.dart';
 import 'package:injectable/injectable.dart';
 
 @injectable

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:get_it_poc/models/weapon.dart';
+import 'package:shared/models/weapon.dart';
 
 abstract class Held extends ChangeNotifier {
   int get health;

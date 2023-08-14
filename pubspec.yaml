@@ -17,6 +17,8 @@ dependencies:
 
   get_it_poc:
     path: ./packages/get_it_poc
+  shared:
+    path: ./packages/shared
 dev_dependencies:
   flutter_test:
     sdk: flutter

@@ -10,8 +10,9 @@
 
 // ignore_for_file: no_leading_underscores_for_library_prefixes
 import 'package:get_it/get_it.dart' as _i1;
-import 'package:get_it_poc/get_it_poc.module.dart' as _i3;
+import 'package:get_it_poc/get_it_poc.module.dart' as _i4;
 import 'package:injectable/injectable.dart' as _i2;
+import 'package:shared/shared.module.dart' as _i3;
 
 extension GetItInjectableX on _i1.GetIt {
 // initializes the registration of main-scope dependencies inside of GetIt
@@ -24,7 +25,8 @@ extension GetItInjectableX on _i1.GetIt {
       environment,
       environmentFilter,
     );
-    await _i3.GetItPocPackageModule().init(gh);
+    await _i3.SharedPackageModule().init(gh);
+    await _i4.GetItPocPackageModule().init(gh);
     return this;
   }
 }

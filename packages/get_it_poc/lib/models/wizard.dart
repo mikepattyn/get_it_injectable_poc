@@ -1,7 +1,7 @@
 import 'package:get_it_poc/models/held.dart';
-import 'package:get_it_poc/models/magicstaff.dart';
-import 'package:get_it_poc/models/weapon.dart';
 import 'package:injectable/injectable.dart';
+import 'package:shared/models/magicstaff.dart';
+import 'package:shared/models/weapon.dart';
 
 @singleton
 class Wizard extends Held {

@@ -1,4 +1,4 @@
-name: get_it_poc
+name: shared
 description: A new Flutter package project.
 version: 0.0.1
 publish_to: none
@@ -16,9 +16,6 @@ dependencies:
   injectable: 
     path: ./../../dependencies/injectable/injectable
   
-  shared:
-    path:
-      ./../shared
 dev_dependencies:
   flutter_test:
     sdk: flutter
